@@ -19,7 +19,7 @@ const Register = ({ onRouteChange, loadUser }, onNameChange, onEmailChange, onPa
     }
 
     onSubmitRegister = () => {
-      fetch('http://localhost:4000/register', {
+      fetch('https://face-server.herokuapp.com/register', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
