@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Particles from 'react-particles-js';
+import ParticlesBg from 'particles-bg'
 import Navigation from './components/navigation/Navigation';
 import Signin from './components/signin/Signin';
 import Register from './components/register/Register';
@@ -8,18 +8,6 @@ import Rank from './components/rank/Rank';
 import ImageLinkForm from './components/imagelinkform/ImageLinkForm';
 import Logo from './components/logo/Logo';
 import './App.css';
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 95,
-      density: {
-        enable: true,
-        value_area: 900
-      }
-    }
-  }
-}
 
 const initialState = {
   input: '',
@@ -120,8 +108,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Particles className="particles"
-          params={ particlesOptions } />
+        <ParticlesBg type="circle" bg={true} />
         <Navigation isSignedIn = { isSignedIn } onRouteChange= { this.onRouteChange }/>
         { route === 'home'
           ? <div>
