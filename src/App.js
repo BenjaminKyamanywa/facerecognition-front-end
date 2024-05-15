@@ -65,7 +65,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState ({imageUrl: this.state.input}); 
-    fetch('https://face-server.herokuapp.com/imageUrl', {
+    fetch('https://facerecognition-server-vj9u.onrender.com/imageUrl', {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -75,7 +75,7 @@ class App extends Component {
     .then(response => response.json())
     .then(response => {
       if(response){
-        fetch('https://face-server.herokuapp.com/image', {
+        fetch('https://facerecognition-server-vj9u.onrender.com/image', {
           method: 'PUT',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

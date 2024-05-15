@@ -19,7 +19,7 @@ const Register = ({ onRouteChange, loadUser }, onNameChange, onEmailChange, onPa
     }
 
     onSubmitRegister = () => {
-      fetch('https://face-server.herokuapp.com/register', {
+      fetch('https://facerecognition-server-vj9u.onrender.com/register', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
