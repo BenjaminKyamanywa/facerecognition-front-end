@@ -35,7 +35,7 @@ A number of important skills i've picket up during this project include a better
 
 - **PostgreSQL**: Utilizing a database to save and retrieve user information on the backend helped me understand the inter coherence with the front end.
 
-## 💭 How it can be improved?
+## 💭 How it can be improved? 
 
 - Add user SSO login.
 
