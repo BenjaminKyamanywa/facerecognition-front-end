@@ -2,7 +2,7 @@
 
 A web app used to smartly recognize faces in images using smart. Built as a side project for learning purposes. It's responsive.
 
-## 📡 Technologies
+## 🎁 Technologies
 
 - `React.js`
 - `Node.js`
@@ -31,7 +31,7 @@ A number of important skills i've picket up during this project include a better
 
 - **Node.JS**: I've understood the knowledge of server side rendering and routes creation to serve performant front end code requests wit express framework.
 
-### 🎨 Database:
+### 🗄️ Database:
 
 - **PostgreSQL**: Utilizing a database to save and retrieve user information on the backend helped me understand the inter coherence with the front end.
 
