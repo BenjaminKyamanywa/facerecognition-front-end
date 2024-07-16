@@ -1,4 +1,4 @@
-# 😊 Facerecognition
+# *️⃣ Facerecognition
 
 A web app used to smartly recognize faces in images using smart. Built as a side project for learning purposes. It's responsive.
 
